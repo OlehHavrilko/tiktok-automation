@@ -1,9 +1,9 @@
 {
   "project": "TikTok Automation - Итоговый Результат",
-  "generated_at": "2026-04-17 15:28:46",
+  "generated_at": "2026-04-17 15:47:02",
   "github": "https://github.com/OlehHavrilko/tiktok-automation",
-  "files_count": 14,
-  "total_size_bytes": 73036,
+  "files_count": 16,
+  "total_size_bytes": 84448,
   "contents": {
     "reports": [
       "google_trends_general_20260417.json",
@@ -21,7 +21,9 @@
       "publish.py",
       "telegram_bot.py",
       "main.py",
-      "prepare_drive_upload.py"
+      "prepare_drive_upload.py",
+      "upload_to_drive.py",
+      "upload_to_drive_service_account.py"
     ],
     "documentation": [
       "README.md",
