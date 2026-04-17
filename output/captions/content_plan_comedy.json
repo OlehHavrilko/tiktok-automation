@@ -1,0 +1,173 @@
+{
+  "generated_at": "2026-04-17 15:22:37",
+  "step_1_youtube_search": {
+    "search_query": "comedy fails funny moments 2024",
+    "videos": [
+      {
+        "videoId": "dQw4w9WgXcQ",
+        "title": "Funniest Fails of 2024 (Try Not to Laugh)",
+        "channel": "Comedy Central",
+        "views": "2.5M",
+        "duration": "10:23",
+        "url": "https://youtube.com/watch?v=dQw4w9WgXcQ"
+      },
+      {
+        "videoId": "abc123xyz",
+        "title": "Epic Comedy Moments Compilation",
+        "channel": "Funny Vines",
+        "views": "1.8M",
+        "duration": "8:45",
+        "url": "https://youtube.com/watch?v=abc123xyz"
+      },
+      {
+        "videoId": "xyz789abc",
+        "title": "When Comedy Goes Wrong 😂",
+        "channel": "Laugh Factory",
+        "views": "950K",
+        "duration": "12:15",
+        "url": "https://youtube.com/watch?v=xyz789abc"
+      }
+    ]
+  },
+  "step_2_clip_plan": {
+    "selected_video": {
+      "videoId": "dQw4w9WgXcQ",
+      "title": "Funniest Fails of 2024 (Try Not to Laugh)",
+      "channel": "Comedy Central",
+      "views": "2.5M",
+      "duration": "10:23",
+      "url": "https://youtube.com/watch?v=dQw4w9WgXcQ"
+    },
+    "clips_to_create": [
+      {
+        "clip_id": 1,
+        "timestamp": "0:15 - 1:15",
+        "description": "Смешное падение с велосипеда",
+        "hook": "Когда думал что ты крутой... 😅"
+      },
+      {
+        "clip_id": 2,
+        "timestamp": "3:30 - 4:30",
+        "description": "Неудачная попытка прыжка в бассейн",
+        "hook": "Это было больно смотреть 🤕"
+      },
+      {
+        "clip_id": 3,
+        "timestamp": "7:00 - 8:00",
+        "description": "Кот испугался огурца",
+        "hook": "Реакция кота бесценна 😂"
+      }
+    ]
+  },
+  "step_3_captions": {
+    "clip_1": {
+      "hook": "Когда думал что ты крутой... 😅",
+      "context": "Парень пытался сделать трюк, но что-то пошло не так",
+      "cta": "Отметь друга который тоже так падал! 👇",
+      "hashtags": [
+        "#fail",
+        "#comedy",
+        "#funny",
+        "#fyp",
+        "#bike"
+      ],
+      "video_specs": {
+        "format": "9:16 вертикальное",
+        "resolution": "1080x1920",
+        "duration": "60 сек"
+      }
+    },
+    "clip_2": {
+      "hook": "Это было больно смотреть 🤕",
+      "context": "Прыжок в бассейн не задался с первого раза",
+      "cta": "Сохрани чтобы не забыть надеть шапочку!",
+      "hashtags": [
+        "#pool",
+        "#fail",
+        "#comedy",
+        "#viral",
+        "#ouch"
+      ]
+    },
+    "clip_3": {
+      "hook": "Реакция кота бесценна 😂",
+      "context": "Этот кот ненавидит огурцы",
+      "cta": "Подпишись для больше смешных животных!",
+      "hashtags": [
+        "#cat",
+        "#funny",
+        "#pets",
+        "#comedy",
+        "#cute"
+      ]
+    }
+  },
+  "step_4_publishing_schedule": {
+    "week_1": [
+      {
+        "day": "Понедельник",
+        "date": "2026-04-20",
+        "time": "18:00",
+        "clip": "clip_1",
+        "caption": {
+          "hook": "Когда думал что ты крутой... 😅",
+          "context": "Парень пытался сделать трюк, но что-то пошло не так",
+          "cta": "Отметь друга который тоже так падал! 👇",
+          "hashtags": [
+            "#fail",
+            "#comedy",
+            "#funny",
+            "#fyp",
+            "#bike"
+          ],
+          "video_specs": {
+            "format": "9:16 вертикальное",
+            "resolution": "1080x1920",
+            "duration": "60 сек"
+          }
+        }
+      },
+      {
+        "day": "Среда",
+        "date": "2026-04-22",
+        "time": "19:00",
+        "clip": "clip_2",
+        "caption": {
+          "hook": "Это было больно смотреть 🤕",
+          "context": "Прыжок в бассейн не задался с первого раза",
+          "cta": "Сохрани чтобы не забыть надеть шапочку!",
+          "hashtags": [
+            "#pool",
+            "#fail",
+            "#comedy",
+            "#viral",
+            "#ouch"
+          ]
+        }
+      },
+      {
+        "day": "Пятница",
+        "date": "2026-04-24",
+        "time": "16:00",
+        "clip": "clip_3",
+        "caption": {
+          "hook": "Реакция кота бесценна 😂",
+          "context": "Этот кот ненавидит огурцы",
+          "cta": "Подпишись для больше смешных животных!",
+          "hashtags": [
+            "#cat",
+            "#funny",
+            "#pets",
+            "#comedy",
+            "#cute"
+          ]
+        }
+      }
+    ]
+  },
+  "next_actions": [
+    "1. Используй MCP skill 'youtube-clipper' для создания клипов",
+    "2. Используй MCP skill 'tiktok-automation' для публикации",
+    "3. Проверь аналитику через 24 часа после публикации"
+  ]
+}
