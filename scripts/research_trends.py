@@ -19,8 +19,24 @@ def save_report(data, filename):
     """Сохраняет отчет в JSON формате"""
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     filepath = os.path.join(OUTPUT_DIR, filename)
+    
+    # Конвертация pandas Timestamp в строки для JSON
+    def convert_timestamps(obj):
+        import pandas as pd
+        if isinstance(obj, dict):
+            return {str(k): convert_timestamps(v) for k, v in obj.items()}
+        elif isinstance(obj, list):
+            return [convert_timestamps(item) for item in obj]
+        elif isinstance(obj, pd.Timestamp):
+            return obj.isoformat()
+        elif hasattr(obj, 'isoformat'):  # datetime objects
+            return obj.isoformat()
+        else:
+            return obj
+    
+    cleaned_data = convert_timestamps(data)
     with open(filepath, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+        json.dump(cleaned_data, f, ensure_ascii=False, indent=2)
     print(f"✓ Отчет сохранен: {filepath}")
     return filepath
 
