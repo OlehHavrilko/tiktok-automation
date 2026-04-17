@@ -40,3 +40,7 @@ archive/*
 # Secrets
 prompts-instructions/QWEN.md
 prompts-instructions/oauth_creds.json
+
+# Virtual environment
+venv/
+.env/
