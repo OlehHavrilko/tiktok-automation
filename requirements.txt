@@ -1,0 +1,14 @@
+# TikTok Automation Project - Requirements
+
+## Python Dependencies (for research scripts)
+pytrends>=4.9.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+## Node.js Dependencies
+# None required - using MCP tools directly
+
+## System Dependencies
+# - rclone (configured for Google Drive)
+# - Node.js 18+
+# - Python 3.9+

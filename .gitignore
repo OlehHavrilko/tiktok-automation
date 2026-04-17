@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+
+# Logs
+logs/
+*.log
+
+# Output files
+output/videos/*
+output/reports/*
+!output/videos/.gitkeep
+!output/reports/.gitkeep
+
+# Config with secrets
+config/secrets.json
+config/.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archive
+archive/*
+!archive/.gitkeep
+
+# Secrets
+prompts-instructions/QWEN.md
+prompts-instructions/oauth_creds.json

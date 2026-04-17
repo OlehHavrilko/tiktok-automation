@@ -1,0 +1,23 @@
+{
+  "name": "tiktok-automation-project",
+  "version": "1.0.0",
+  "description": "TikTok content creation and automation using free APIs and tools",
+  "main": "scripts/main.js",
+  "scripts": {
+    "research": "node scripts/research.js",
+    "create-content": "node scripts/create-content.js",
+    "publish": "node scripts/publish.js",
+    "analytics": "node scripts/analytics.js",
+    "sync-drive": "rclone sync ./archive gdrive:/tiktok-project/archive"
+  },
+  "keywords": [
+    "tiktok",
+    "automation",
+    "content-creation",
+    "social-media"
+  ],
+  "author": "Oleh Havrilko",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

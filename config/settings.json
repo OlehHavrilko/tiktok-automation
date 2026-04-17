@@ -1,0 +1,26 @@
+{
+  "project": {
+    "name": "TikTok Automation",
+    "version": "1.0.0",
+    "author": "Oleh Havrilko"
+  },
+  "tiktok": {
+    "maxVideosPerMonth": 20,
+    "defaultHashtagCount": 5,
+    "autoPublish": false
+  },
+  "youtube": {
+    "maxClipDuration": 60,
+    "preferredQuality": "720p"
+  },
+  "storage": {
+    "provider": "google-drive",
+    "rcloneRemote": "gdrive",
+    "archivePath": "/tiktok-project/archive"
+  },
+  "telegram": {
+    "enabled": false,
+    "botToken": "",
+    "chatId": ""
+  }
+}
