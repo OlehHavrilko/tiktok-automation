@@ -1,0 +1,18 @@
+{
+  "source": "Reddit (yars)",
+  "keywords": [
+    "tiktok trends",
+    "viral videos",
+    "social media"
+  ],
+  "limit": 10,
+  "date": "2026-04-17T15:17:30.926888",
+  "note": "Используйте MCP skill \"social-media-trends-research\" для получения данных",
+  "subreddits_to_monitor": [
+    "TikTok",
+    "TikTokCringe",
+    "SocialMediaMarketing",
+    "ContentCreation",
+    "ViralVideos"
+  ]
+}
