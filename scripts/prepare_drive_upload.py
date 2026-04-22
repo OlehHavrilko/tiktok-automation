@@ -10,7 +10,7 @@ from datetime import datetime
 from pathlib import Path
 
 # Пути
-PROJECT_DIR = Path("/root/tiktokproject")
+PROJECT_DIR = Path(__file__).parent.parent
 OUTPUT_DIR = PROJECT_DIR / "output"
 REPORTS_DIR = OUTPUT_DIR / "reports"
 CAPTIONS_DIR = OUTPUT_DIR / "captions"
