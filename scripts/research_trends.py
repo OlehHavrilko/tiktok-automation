@@ -20,10 +20,12 @@ def save_report(data, filename):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     filepath = os.path.join(OUTPUT_DIR, filename)
     
-    # Конвертация pandas Timestamp в строки для JSON
+    # Конвертация pandas Timestamp и DataFrame в строки для JSON
     def convert_timestamps(obj):
         import pandas as pd
-        if isinstance(obj, dict):
+        if isinstance(obj, pd.DataFrame):
+            return obj.to_dict()
+        elif isinstance(obj, dict):
             return {str(k): convert_timestamps(v) for k, v in obj.items()}
         elif isinstance(obj, list):
             return [convert_timestamps(item) for item in obj]
